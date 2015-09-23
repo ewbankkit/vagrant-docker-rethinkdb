@@ -32,3 +32,13 @@ service { 'ufw':
   ensure => stopped,
   enable => false,
 }
+
+########################################
+# Data directory.
+########################################
+file { '/data':
+  ensure => directory,
+  owner  => 'vagrant',
+  group  => 'vagrant',
+  mode   => '0755',
+}

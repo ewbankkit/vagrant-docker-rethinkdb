@@ -13,5 +13,5 @@ Pulling rethinkdb (rethinkdb:2.1.3)...
 2.1.3: Pulling from rethinkdb
 
 ```
-The RethinkDB web UI is mapped to port 8080 on the host.
-The RethinkDB listening port is mapped to port 29015 on the host.
+The RethinkDB web UI is mapped to port 8080 on the host.<br/>
+The RethinkDB listening port is mapped to port 28015 on the host.

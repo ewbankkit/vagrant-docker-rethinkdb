@@ -33,6 +33,7 @@ Vagrant.configure("2") do |config|
 
     # RethinkDB:
     e.vm.network :forwarded_port, guest: 8080, host: 8080
+    e.vm.network :forwarded_port, guest: 28015, host: 28015
 
     e.vm.provider "virtualbox" do |vb|
       vb.name = "rethinkdb-in-a-box"
